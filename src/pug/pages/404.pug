@@ -1,0 +1,12 @@
+extends ../layouts/app.pug
+
+block variables
+  - var pageTitle = " Not Found"
+  
+block content
+  div
+    include ../components/header/header.pug
+    +header(true)
+    include ../components/error.pug
+    +error("404", $t.common["404"])
+    include ../components/footer.pug

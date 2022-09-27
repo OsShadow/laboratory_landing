@@ -1,0 +1,19 @@
+mixin error(errCode, text)
+  .error-wrap
+    section.max-md
+      .row
+        .col-md-5
+          .flex
+            .deco
+              h3 #{errCode}
+        .col-md-7
+          .text
+            h4.display-1 #{text}
+            p #{$t.common["404_subtitle"]}
+            |
+            |
+            a.btn-outlined.primary.waves-effect.btn-large.button(
+              href=link.agency.home
+            ) #{$t.common.back}
+            |
+            |

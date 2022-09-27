@@ -1,0 +1,38 @@
+include titles/with-decoration.pug
+
+.root
+  .container.fixed-width
+    .row.spacing6
+      .col-lg-1.pa-6.show-lg-up
+      .col-lg-5.col-md-6.pa-6
+        +title-deco($t.agency_landing.office_title)
+        .block
+          .wow.fadeInLeftShort(data-wow-offset="-50" data-wow-delay="0.3s" data-duration="0.3s")
+            .card.paper
+              h6.title #{$t.agency_landing.office_head}
+              .row
+                .col-sm-6.pa-0
+                  i.material-icons.icon phone
+                  | +123 456 78 91
+                .col-sm-6.pa-0
+                  i.material-icons.icon email
+                  | hello@luxi.com
+                .col-sm-12.pa-0
+                  i.material-icons.icon location_on
+                  | Lorem ipsum street no.14 Block A
+            .wow.fadeInLeftShort(data-wow-offset="-50" data-wow-delay="0.5s" data-duration="0.3s")
+              .card.paper
+                h6.title #{$t.agency_landing.office_branch}
+                .row
+                  .col-sm-6.pa-0
+                    i.material-icons.icon phone
+                    | +98 765 432 10
+                  .col-sm-6.pa-0
+                    i.material-icons.icon email
+                    | hello@luxi.com
+                  .col-sm-12.pa-0
+                    i.material-icons.icon location_on
+                    | Lorem ipsum street Block C - Vestibullum Building
+      .col-md-6.pa-6
+        .card.map
+          #map

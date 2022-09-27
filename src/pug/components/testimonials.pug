@@ -1,0 +1,88 @@
+-
+  var testiContent = [
+    {
+      text: 'Sed imperdiet enim ligula, vitae viverra justo porta vel.',
+      avatar: imgAPI.avatar[10],
+      name: 'John Doe',
+      title: 'Chief Digital Officer',
+      rating: 5
+    },
+    {
+      text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+      avatar: imgAPI.avatar[1],
+      name: 'Jean Doe',
+      title: 'Chief Digital Officer',
+      rating: 4
+    },
+    {
+      text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+      avatar: imgAPI.avatar[2],
+      name: 'Jena Doe',
+      title: 'Graphic Designer',
+      rating: 4
+    },
+    {
+      text: 'Sed imperdiet enim ligula, vitae viverra justo porta vel.',
+      avatar: imgAPI.avatar[3],
+      name: 'Jovelin Doe',
+      title: 'Senior Graphic Designer',
+      rating: 3
+    },
+    {
+      text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+      avatar: imgAPI.avatar[4],
+      name: 'Jihan Doe',
+      title: 'CEO Software House',
+      rating: 5
+    },
+    {
+      text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+      avatar: imgAPI.avatar[6],
+      name: 'Jovelin Doe',
+      title: 'Senior Graphic Designer',
+      rating: 5
+    },
+    {
+      text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+      avatar: imgAPI.avatar[7],
+      name: 'John Doe',
+      title: 'Senior Graphic Designer',
+      rating: 4
+    },
+    {
+      text: 'Sed imperdiet enim ligula, vitae viverra justo porta vel.',
+      avatar: imgAPI.avatar[10],
+      name: 'John Doe',
+      title: 'Chief Digital Officer',
+      rating: 5
+    },
+    {
+      text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+      avatar: imgAPI.avatar[1],
+      name: 'Jean Doe',
+      title: 'Chief Digital Officer',
+      rating: 4
+    }
+  ]
+
+include ./cards/testimonial
+include ./titles/with-icon
+.root
+  include parallax/single-square.pug
+  .carousel
+    .slick-carousel#testimonial_carousel(data-length=testiContent.length)
+      .item.show-lg-up
+        .item-props-first
+      each item in testiContent
+        .item
+          +testimonial-card(item.avatar, item.title, item.name, item.text, item.rating)
+      .item.show-lg-up
+        .item-props-last
+  .floating-title
+    .container.fixed-width
+      .title
+        +title-icon($t.agency_landing.testimonial_title, "format_quote")
+  #company-logo 
+    include company-logo.pug
+
+

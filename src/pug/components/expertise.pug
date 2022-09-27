@@ -1,0 +1,52 @@
+include titles/with-decoration.pug
+
+-
+  var expertiseList = [
+    ['social media', 'marketing', 'SEO'],
+    ['Web Development', 'UI Designs', 'Mobile Apps'],
+    ['Photography', 'Company Profile', 'Visual Editing'],
+    ['social media', 'marketing', 'SEO'],
+    ['Web Development', 'UI Designs', 'Mobile Apps'],
+    ['Photography', 'Company Profile', 'Visual Editing'],
+    ['social media', 'marketing', 'SEO'],
+    ['Web Development', 'UI Designs', 'Mobile Apps'],
+    ['Photography', 'Company Profile', 'Visual Editing']
+  ]
+
+svg.background.base(fill='#cccccc', width='531px' height='531px' viewBox="0 0 531 531")
+  include svg/square-deco-primary.pug
+svg.background.front(fill='#cccccc', width='531px' height='531px' viewBox="0 0 531 531")
+  include svg/square-deco-primary.pug
+
+.root
+  .container
+    .row.spacing8
+      .col-lg-1.show-lg-up
+      .col-md-4
+        .title-deco
+          svg.decoration.show-lg-up(fill='#cccccc' width='845px' height='1099px')
+            include svg/wave-decoration.pug
+          +title-deco($t.agency_landing.expertise_title)
+        .wow.parallax-scene.zoomInShort(data-wow-offset="-100" data-wow-delay='0.1s' data-wow-duration='0.3s')
+          .parallax-scene
+            #scene
+              div(data-depth="0.15")
+                span.icon-green
+              div(data-depth="0.1")
+                span.icon-violet
+              div(data-depth="0.3")
+                span.icon-blue
+      .col-lg-7.col-md-8
+        h4.title-default.use-text-subtitle #{$t.agency_landing.expertise_subtitle}
+        p.desc.use-text-paragraph #{$t.agency_landing.expertise_paragraph}
+        .hidden-xs-down
+          .running-tag
+            .slick-carousel#expertise_carousel
+              each group in expertiseList
+                .tag-group
+                  each item in group
+                    |
+                    |
+                    span.tag-item #{item}
+                    |
+                    |

@@ -1,0 +1,18 @@
+include ./titles/with-decoration.pug
+.root
+  .container.fixed-width
+    .row
+      .col-md-5.pa-md-6.py-6.px-0
+        div
+          +title-deco($t.agency_landing.about_title)
+          .puzzle.show-lg-up
+            .piece-big
+              span
+            .piece-small-top
+              span
+            .piece-small-bottom
+              span
+      .col-md-7.pa-md-6.py-6.px-0
+        h4.title-default.use-text-subtitle #{$t.agency_landing.about_subtitle}
+        include counter.pug
+        blockquote #{$t.agency_landing.about_quote}

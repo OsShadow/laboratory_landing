@@ -1,0 +1,71 @@
+include ./titles/with-icon.pug
+include cards/default.pug
+-
+  var servicesList = [
+    {
+      title: "Lorem Ipsum",
+      desc: "Proin ac arcu nisl. Duis eu molestie lectus. Nam quis mauris faucibus, aliquet elit eu, rhoncus ipsum.",
+      img: imgAPI.agency[2]
+    },
+    {
+      title: "Etiam rhoncus",
+      desc: "Proin quis pellentesque dui. Ut sed leo neque. Nullam aliquet iaculis neque a commodo.",
+      img: imgAPI.agency[3]
+    },
+    {
+      title: "Duis fermentum",
+      desc: "Quisque consectetur lectus vel orci porttitor gravida ac eu erat. Nullam accumsan nibh tortor.",
+      img: imgAPI.agency[4]
+    },
+    {
+      title: "Lorem Ipsum",
+      desc: "Proin ac arcu nisl. Duis eu molestie lectus. Nam quis mauris faucibus, aliquet elit eu, rhoncus ipsum.",
+      img: imgAPI.agency[2]
+    },
+    {
+      title: "Etiam rhoncus",
+      desc: "Proin quis pellentesque dui. Ut sed leo neque. Nullam aliquet iaculis neque a commodo.",
+      img: imgAPI.agency[3]
+    },
+    {
+      title: "Duis fermentum",
+      desc: "Quisque consectetur lectus vel orci porttitor gravida ac eu erat. Nullam accumsan nibh tortor.",
+      img: imgAPI.agency[4]
+    }
+  ]
+
+.root
+  .carousel-handle
+    .carousel-wrap
+      .carousel
+        .slick-carousel#services_carousel(data-length=servicesList.length)
+          .item.show-lg-up
+            .carousel-prop
+              div
+          .item.show-lg-up
+            .carousel-prop
+              div
+          each item in servicesList
+            .item
+              +card(item.img, item.title, item.desc, $t.agency_landing.services_button)
+          .item.show-lg-up
+            .carousel-prop
+              div
+          .item.show-lg-up
+            .carousel-prop
+              div
+  .floating-title
+    .container.fixed-width
+      .title
+        +title-icon($t.agency_landing.services_title, 'apps', true)
+        nav.arrow
+          |
+          |
+          button#prev_services.btn-floating.margin
+            i.material-icons arrow_back
+          |
+          |
+          button#next_services.btn-floating.margin
+            i.material-icons arrow_forward
+          |
+          |

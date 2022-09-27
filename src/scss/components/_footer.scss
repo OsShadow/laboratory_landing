@@ -1,0 +1,135 @@
+.footer {
+  .link {
+    margin: spacing(1, 1.5);
+  }
+  margin-top: $spacing8;
+  padding-top: $spacing3;
+  padding-bottom: $spacing3;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      line-height: 32px;
+      a {
+        @include palette-text-secondary;
+        text-decoration: none;
+        font-size: 14px
+      }
+    }
+  }
+  .title-nav {
+    .theme--dark & {
+      color: $palette-primary-light
+    }
+    .theme--light & {
+      color: $palette-primary-dark
+    }
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: $spacing3;
+    font-weight: $font-bold
+  }
+  .body-2 {
+    @include palette-text-secondary
+  }
+  &-desc{
+    display: block;
+    font-size: 14px;
+    margin-bottom: $spacing2;
+    @include breakpoints-down(sm) {
+      text-align: center
+    }
+  }
+  .collapsible {
+    border: none;
+    box-shadow: none;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  .collapsible-header {
+    background: none;
+    box-shadow: none;
+    border: none;
+    i {
+      margin-right: 0
+    }
+  }
+  .collapsible-body {
+    border-bottom: none;
+    margin-bottom: $spacing4
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: $spacing3;
+    @include breakpoints-down(sm) {
+      justify-content: center;
+      padding: spacing(0, 3)
+    }
+    img {
+      filter: grayscale(1) contrast(0.5) brightness(1.5);
+      width: 48px;
+      @include margin-right($spacing1)
+    }
+    h6 {
+      @include palette-text-disabled
+    }
+  }
+
+  .socmed {
+    display: flex;
+    justify-content: center;
+    margin-bottom: $spacing4;
+    a {
+      margin: $spacing1;
+      .theme--dark & {
+        color: $palette-primary-light;
+        background: $dark-divider !important
+      }
+      .theme--light & {
+        color: $palette-primary-dark;
+        background: $light-divider !important
+      }
+      width: 36px;
+      height: 36px;
+      i {
+        .theme--dark & {
+          color: $palette-primary-light 
+        }
+        .theme--light & {
+          color: $palette-primary-dark 
+        }
+      }
+    }
+    .icon {
+      font-size: 24px
+    }
+  }
+  .select-lang {
+    margin: 0 auto;
+    width: 200px;
+    display: inherit;
+    margin-top: $spacing2;
+    input {
+      box-shadow: 0 1.5px 12px 2px rgba(0, 0, 0, 0.06);
+      .theme--dark & {
+        color: $palette-primary-light;
+        border-color: $palette-primary-light
+      }
+      .theme--light & {
+        color: $palette-primary-dark;
+        border-color: $palette-primary-main
+      }
+    }
+  }
+  .site-map-item {
+    @include breakpoints-down('md') {
+      padding-bottom: 0 !important;
+      padding-top: 0 !important
+    }
+  }
+  .accordion-icon {
+    padding: 0
+  }
+}

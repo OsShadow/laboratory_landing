@@ -1,0 +1,50 @@
+- var cover = imgAPI.agency[0]
+.hero-content
+  .hidden-sm-up
+    figure.mobile-cover
+      |
+      |
+      img(src=cover alt="cover")
+      |
+      |
+  .container.mq-lg-up(data-class="fixed-width")
+    .row
+      .col-md-6.px-0
+        .banner-text
+          .title
+            h3.text-helper.use-text-title #{$t.agency_landing.banner_title}
+          h5.subtitle.use-text-subtitle2 #{$t.agency_landing.banner_subtitle}
+          |
+          |
+          a.button.btn.waves-effect.btn-outlined.secondary.btn-large #{$t.agency_landing.banner_button}
+            i.material-icons.icon send
+      .col-md-6.pa-6.show-sm-up
+        .video-wrap
+          .video-figure
+            .inner-figure
+              .hidden-sm-down
+                |
+                |
+                button#btn_play.btn-play.btn-floating.waves-effect.hide
+                  |
+                  |
+                  i.material-icons.play play_arrow
+                  |
+                  |
+                  i.material-icons.pause pause
+                  |
+                  |
+                |
+                |
+              |
+              |
+              img.show-md-down(src=cover alt='cover')/
+              |
+              |
+              img#banner_cover.hidden-md-down(src=cover alt='cover')/
+              |
+              |
+              .overlay
+              if youtube.use
+                .video
+                  #youtube.show-lg-up

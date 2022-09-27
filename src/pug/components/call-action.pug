@@ -1,0 +1,21 @@
+svg.background.base(fill='cccccc', width="531px" height="531px" viewBox="0 0 531 531")
+  include svg/square-deco-primary.pug
+svg.background.front(fill='cccccc', width="531px" height="531px" viewBox="0 0 531 531")
+  include svg/square-deco-primary.pug
+.container.fixed-width-md-up
+  .root
+    .card.paper
+      .row.align-items-center.mb-0
+        .col-md-8.pa-0
+          h4.use-text-title2.pb-2 #{$t.agency_landing.cta_title}
+          p.use-text-subtitle2 #{$t.agency_landing.cta_subtitle}
+        .col-md-4.pa-0
+          .d-flex.align-items-center.justify-content-end
+            |
+            |
+            a.waves-effect.btn-outlined.secondary.button(
+              href='/contact'
+            ) #{$t.agency_landing.cta_btn}
+              i.material-icons send
+            |
+            |

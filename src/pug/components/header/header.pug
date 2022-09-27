@@ -1,0 +1,50 @@
+include mobile-menu.pug
+
+mixin header(invert)
+  header.app-bar.header#header
+    .container
+      .header-content
+        nav.nav-logo(class=invert && "invert")
+          |
+          |
+          button#mobile_menu.mobile-menu.btn-icon.waves-effect.hamburger.hamburger--spin.show-sm-down(
+            type="button"
+          )
+            |
+            |
+            span.hamburger-box
+              span.bar.hamburger-inner
+            |
+            |
+          .logo(class= !invert && "scrollnav")
+            |
+            |
+            a(href=invert ? link.agency.home : "#home")
+              img(
+                src=assets + brand.agency.img
+                alt="logo"
+              )/ #{brand.agency.name}
+            |
+            |
+        nav.nav-menu(class=invert && "invert")
+          .scrollactive-nav.show-md-up(class= !invert && "scrollnav")
+            ul
+              each item in menu.agency
+                |
+                |
+                li
+                  a.btn.btn-flat.anchor-link.waves-effect(
+                    href=invert ? 'index.html#'+item.name : '#'+item.name
+                  ) #{$t.agency_landing['header_'+item.name]}
+              |
+              |
+              li
+                a.btn.btn-flat.anchor-link.waves-effect(
+                  href=link.agency.contact
+                ) #{$t.agency_landing.header_contact}
+              |
+              |
+          include ./settings
+          +settings(invert)
+  |
+  |

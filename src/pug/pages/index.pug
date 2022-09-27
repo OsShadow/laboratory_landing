@@ -1,0 +1,75 @@
+extends ../layouts/app.pug
+
+block variables
+  - var pageTitle = " Home Page"
+block content
+  div
+    #home
+    .main-wrap
+      // ##### HEADER #####
+      include ../components/header/header.pug
+      +header(false)
+      // ##### END HEADER #####
+      main.container-wrap
+        // ##### PARALLAX SQUARE #####
+        include ../components/parallax/square.pug
+        // ##### END PARALLAX SQUARE #####
+        
+        // ##### BANNER #####
+        section#banner
+          include ../components/video-banner.pug
+        // ##### END BANNER #####
+        
+        // ##### ABOUT #####
+        section#about.space-top.is-md
+          include ../components/about.pug
+        // ##### END ABOUT #####
+        
+        // ##### PARALLAX DOTS #####
+        include ../components/parallax/dots.pug
+        // ##### END PARALLAX DOTS #####
+        
+        // ##### SERVICES #####
+        section#services.space-top-short
+          include ../components/services.pug
+        // ##### END SERVICES #####
+        
+        // ##### EXPERTISE #####
+        section#our-expertise.space-top.is-md
+          include ../components/expertise.pug
+        // ##### END EXPERTISE #####
+        
+        // ##### TESTIMONIAL #####
+        section#testimonials.space-top.is-xs
+          include ../components/testimonials.pug
+        // ##### END TESTIMONIAL #####
+        
+        // ##### CASE STUDIES #####
+        section#case-studies
+          include ../components/case-studies.pug
+        // ##### END CASE STUDIES #####
+        
+        // ##### CALL ACTION #####
+        section#call-to-action.space-top-short
+          include ../components/call-action.pug
+        // ##### END CALL ACTION #####
+        
+        // ##### MAP ADDRESS #####
+        section#map-address.space-top-short
+          include ../components/map-address.pug
+        // ##### END MAP ADDRESS #####
+    
+    // ##### PAGE NAV #####
+    .hidden-md-down
+      include ../components/page-nav.pug
+    // ##### END PAGE NAV #####
+    
+    // ##### NOTIFIACTION #####
+    .hidden-md-down
+      include ../components/notification.pug
+    // ##### END NOTIFIACTION #####
+    
+    // ##### FOOTER #####
+    include ../components/footer.pug
+    // ##### END FOOTER #####
+

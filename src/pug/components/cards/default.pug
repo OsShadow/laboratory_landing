@@ -1,0 +1,8 @@
+mixin card(img, title, desc, button)
+  .card.default-card
+    figure
+      img(src=img alt='img')/
+    .text
+      h6.title #{title} 
+      p #{desc}
+    a.btn.btn-outlined.waves-effect.block.primary.button #{button}

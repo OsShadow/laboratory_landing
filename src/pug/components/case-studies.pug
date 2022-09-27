@@ -1,0 +1,106 @@
+-
+  var categories = [
+    "corporate",
+    "advertising",
+    "marketing",
+    "government",
+    "creative"
+  ]
+  var caseData = [
+    {
+      bg: imgAPI.agency[5],
+      logo: assets + "/images/logos/mobile.png",
+      title: "Donec commodo convallis ligula",
+      desc: "Vestibulum consequat hendrerit",
+      size: "small"
+    },
+    {
+      logo: assets + "/images/logos/coin.png",
+      title: "Donec ligula",
+      desc: "Vestibulum hendrerit",
+      size: "small",
+      simple: true
+    },
+    {
+      logo: assets + "/images/logos/starter.png",
+      title: "Donec commodo convallis ligula",
+      desc: "Vestibulum consequat hendrerit",
+      size: "medium",
+      simple: true
+    },
+    {
+      bg: imgAPI.agency[6],
+      logo: assets + "/images/logos/profile.png",
+      title: "Donec commodo convallis ligula",
+      desc: "Vestibulum consequat hendrerit",
+      size: "medium"
+    },
+    {
+      bg: imgAPI.agency[7],
+      logo: assets + "/images/logos/architect.png",
+      title: "Donec commodo convallis ligula",
+      desc: "Vestibulum consequat hendrerit",
+      size: "medium"
+    },
+    {
+      bg: imgAPI.agency[8],
+      logo: assets + "/images/logos/fashion.png",
+      title: "Donec commodo convallis ligula",
+      desc: "Vestibulum consequat hendrerit",
+      size: "big"
+    },
+    {
+      bg: imgAPI.agency[9],
+      logo: assets + "/images/logos/cloud.png",
+      title: "Donec commodo convallis ligula",
+      desc: "Vestibulum consequat hendrerit",
+      size: "big"
+    }
+  ]
+
+include cards/case.pug
+
+.root
+  .container.fixed-width-md-up
+    .row.spacing6
+      .col-md-3.px-6.pt-6
+        .wow.fadeInLeftShort(data-offset="-100" data-delay="0.2s" data-duration="0.3s")
+          .side-filter
+            h4.title-primary.mt-10 #{$t.agency_landing.case_title}
+            ul.collection.nav#case_categories
+              each item, index in categories
+                li.collection-item.filter(class=index === 1 && "active")
+                  a.waves-effect #{item}
+      .col-md-9.px-6.pt-6
+        .massonry
+          .row#case_gallery
+            .col-sm-3.pa-3
+              .wow.fadeInUpShort(data-wow-delay="0.2s" data-wow-duration="0.4s")
+                each item in caseData
+                  if item.size === "small"
+                    div.item
+                      - var bg = item.bg || ""
+                      - var simple = item.simple || ""
+                      |
+                      |
+                      +case-card(bg, item.logo, item.title, item.desc, item.size, simple)
+            .col-sm-4.pa-3
+              .wow.fadeInUpShort(data-wow-delay="0.4s" data-wow-duration="0.4s")
+                each item in caseData
+                  if item.size === "medium"
+                    div.item
+                      - var bg = item.bg || ""
+                      - var simple = item.simple || ""
+                      |
+                      |
+                      +case-card(bg, item.logo, item.title, item.desc, item.size, simple)
+            .col-sm-5.pa-3
+              .wow.fadeInUpShort(data-wow-delay="0.6s" data-wow-duration="0.4s")
+                each item in caseData
+                  if item.size === "big"
+                    div.item
+                      - var bg = item.bg || ""
+                      - var simple = item.simple || ""
+                      |
+                      |
+                      +case-card(bg, item.logo, item.title, item.desc, item.size, simple)
