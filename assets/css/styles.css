@@ -473,6 +473,16 @@
   --v-secondarydark-base: #3e2723;
 }
 
+.laboratory-var {
+  --v-anchor-base: #FFF5ED;
+  --v-primarylight-base: #c9a485;
+  --v-primary-base: #AFB8AA;
+  --v-primarydark-base: #9c755c;
+  --v-secondarylight-base: #E1AD8C;
+  --v-secondary-base: #7d5740;
+  --v-secondarydark-base: #543929;
+}
+
 * {
   background-repeat: no-repeat;
   padding: 0;
