@@ -91,19 +91,16 @@
                   href="contact.html">Contacto</a></li>
             </ul>
           </div>
-          <header class="app-bar header" id="header">
+          <header class="app-bar fixed header " id="header">
             <div class="container">
               <div class="header-content">
                 <nav class="nav-logo">
-                  <button class="mobile-menu btn-icon waves-effect hamburger hamburger--spin show-sm-down"
+                  <button class="mobile-menu btn-icon waves-effect hamburger hamburger--spin show-sm-down "
                     id="mobile_menu" type="button">
-                    <span class="hamburger-box"><span class="bar hamburger-inner"></span></span>
+                    <span class="hamburger-box"><span class="bar hamburger-inner "></span></span>
                   </button>
-                  <div class="logo scrollnav d-sm-none">
-                    <a href="#home"><img src="./assets/images/logos/logo_kalan_white.svg" alt="logo"
-                        style="max-width: 150px !important; height: 200px !important; width: 150px !important;" /></a>
-                  </div>
-                  <div class="logo scrollnav d-none d-sm-block ">
+              
+                  <div class="logo scrollnav ">
                     <a href="#home"><img src="./assets/images/logos/logo_kalan_green.svg" alt="logo"
                         style="max-width: 150px !important; height: 200px !important; width: 150px !important;" /></a>
                   </div>
@@ -111,13 +108,16 @@
                 <nav class="nav-menu">
                   <div class="scrollactive-nav show-md-up scrollnav montserrat-black">
                     <ul>
-                      <li><a class="btn btn-flat anchor-link waves-effect " href="#inicio">Inicio</a></li>
-                      <li><a class="btn btn-flat anchor-link waves-effect" href="#nosotros">Nosotros</a></li>
-                      <li><a class="btn btn-flat anchor-link waves-effect" href="#productos">Productos</a></li>
-                      <li><a class="btn btn-flat anchor-link waves-effect" target="_blank"
+                      <li><a class="btn btn-flat anchor-link waves-effect green-color " href="#inicio">Inicio</a></li>
+                      <li><a class="btn btn-flat anchor-link waves-effect green-color" href="#nosotros">Nosotros</a>
+                      </li>
+                      <li><a class="btn btn-flat anchor-link waves-effect green-color" href="#productos">Productos</a>
+                      </li>
+                      <li><a class="btn btn-flat anchor-link waves-effect green-color" target="_blank"
                           href="https://www.wa.link/w6ln50/"> Más información</a></li>
                       <!-- <li><a class="btn btn-flat anchor-link waves-effect" href="#case-studies">Info</a></li> -->
-                      <li><a class="btn btn-flat anchor-link waves-effect" href="contact.html">Contacto</a></li>
+                      <li><a class="btn btn-flat anchor-link waves-effect green-color" href="contact.html">Contacto</a>
+                      </li>
 
                     </ul>
                   </div>
@@ -127,7 +127,7 @@
                         <i class="icon material-icons" id="setting_icon">settings</i>
                       </button> -->
                       <div class="dropdown-content" id="dropdown_config">
-                        <ul class="collection with-header">
+                        <!-- <ul class="collection with-header">
                           <li class="collection-header">theme mode</li>
                           <li class="collection-item no-hover pl-4">
                             <div class="flex-menu">
@@ -137,7 +137,7 @@
                               </div>
                             </div>
                           </li>
-                        </ul>
+                        </ul> -->
                         <!-- <div class="dropdown-divider"></div>
                         <ul class="collection with-header lang-menu" id="lang_menu">
                           <li class="collection-header">language</li>
@@ -188,7 +188,7 @@
           <!-- ##### END HEADER #####-->
           <main class="container-wrap">
             <!-- ##### PARALLAX SQUARE #####-->
-            <div class="parallax-wrap">
+            <!-- <div class="parallax-wrap">
               <div id="square">
                 <div class="banner inner-parallax">
                   <div class="figure">
@@ -216,15 +216,16 @@
                   </div>
                 </div>
               </div>
-            </div><!-- ##### END PARALLAX SQUARE #####-->
+            </div> -->
+            <!-- ##### END PARALLAX SQUARE #####-->
             <!-- ##### BANNER #####-->
             <section id="banner">
               <div class="hero-content" id="inicio">
-                <div class="hidden-sm-up">
+                <!-- <div class="hidden-sm-up">
                   <figure class="mobile-cover">
                     <img src="https://via.placeholder.com/964x723/1071ef/FFFFFF" alt="cover">
                   </figure>
-                </div>
+                </div> -->
                 <div class="container mq-lg-up montserrat-black" data-class="fixed-width">
                   <div class="row">
                     <div class="col-md-6 px-0">
@@ -238,32 +239,12 @@
                             información </button></a>
                       </div>
                     </div>
-                    <div class="col-md-6 pa-6 show-sm-up">
-                      <div class="video-wrap">
-                        <div class="video-figure">
-                          <div class="inner-figure">
-                            <div class="hidden-sm-down">
-                              <button class="btn-play btn-floating waves-effect hide" id="btn_play">
-                                <i class="material-icons play">play_arrow</i>
-                                <i class="material-icons pause">pause</i>
-                              </button>
-                            </div>
-                            <img class="show-md-down" src="https://via.placeholder.com/964x723/1071ef/FFFFFF"
-                              alt="cover" />
-                            <img class="hidden-md-down" id="banner_cover"
-                              src="https://via.placeholder.com/964x723/1071ef/FFFFFF" alt="cover" />
-                            <div class="overlay"></div>
-                            <div class="video">
-                              <div class="show-lg-up" id="youtube"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+
                   </div>
                 </div>
               </div>
-            </section><!-- ##### END BANNER #####-->
+            </section>
+            <!-- ##### END BANNER #####-->
             <!-- ##### ABOUT #####-->
             <!-- <section class="space-top is-md" id="about">
               <div class="root">
@@ -324,104 +305,7 @@
             <!-- ##### END ABOUT #####-->
             <!-- ##### PARALLAX DOTS #####-->
 
-            <div class="col-12"></div>
-            <div class="parallax-wrap dots-wrap">
-              <div class="inner-parallax">
-                <div class="figure">
-                  <div id="dots">
-                    <div data-enllax-ratio="-0.3" data-enllax-type="foreground">
-                      <img class="parallax-dot" src="./assets/images/decoration/dot-deco.svg" alt="dot deco" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- ##### END PARALLAX DOTS #####-->
-            <section>
-              <div class="col-12">
-                <!-- <div class="accordion" id="accordionAbout">
 
-                  <b class="text-left manita" data-toggle="collapse" data-target="#historia" aria-expanded="true"
-                    aria-controls="historia">
-                    Historia:
-                  </b>
-                  <hr>
-                  <div id="historia" class="collapse" data-parent="#accordionAbout">
-                    Laboratorios Kalán S.A. de C.V. nace en el año de 2011. Su trayectoria se enfoca al ramo cosmético
-                    con la elaboración de toalla para SPA y a la creación de productos que tocan directamente el tema
-                    de
-                    la belleza y cuidado de la zona facial, distinguiéndose por promover el uso de la tela “nonwoven
-                    sponges” con círculos absorbentes, dándole así su toque de innovación a lo que se usaba en su
-                    momento.
-                    Los accionistas son socios de empresas farmacéuticas, por lo que al no desconocer los estándares
-                    de
-                    calidad de producción y al saber lo importante que es “crear e innovar”, deciden invertir en
-                    maquinaria y equipo para la fabricación de toallas de textiles “nonwovens” participando así en
-                    éste
-                    segmento de la “belleza, spa y salud” que cada día toma más auge en México y en países de América
-                    y
-                    teniendo como objetivo el apoyar a profesionales del ramo que necesitan de productos específicos
-                    para realizar sus “tratamientos” con mayor facilidad y eficiencia en beneficio de sus clientes.
-                  </div>
-                  <b class="text-left manita" data-toggle="collapse" data-target="#mision" aria-expanded="true"
-                    aria-controls="mision">Misión:</b>
-                  <hr>
-                  <div id="mision" class="collapse" data-parent="#accordionAbout">Innovar y crear productos con
-                    textiles “nonwovens”, para aplicaciones y uso en faciales,
-                    corporales, manos y pies, que contribuyan a facilitar y mejorar el desempeño de profesionales del
-                    ramo en beneficio de sus clientes.</div>
-                  <b class="text-left manita" data-toggle="collapse" data-target="#vision" aria-expanded="true"
-                    aria-controls="mision">Visión:</b>
-                  <hr>
-                  <div id="vision" class="collapse" data-parent="#accordionAbout">Ser la empresa líder en
-                    México y la mejor opción en América en la fabricación de productos con
-                    textiles “nonwovens” que se distinga por su posicionamiento de marcas y por la preferencia de las
-                    mismas con los profesionales del ramo.</div>
-                </div> -->
-                <!-- <div class="accordion" id="accordionExample">
-                  <b class="text-left manita" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                    aria-controls="collapseOne">
-                    Historia:
-                  </b>
-                  <hr>
-                  <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
-                    Laboratorios Kalán S.A. de C.V. nace en el año de 2011. Su trayectoria se enfoca al ramo cosmético
-                    con la elaboración de toalla para SPA y a la creación de productos que tocan directamente el tema de
-                    la belleza y cuidado de la zona facial, distinguiéndose por promover el uso de la tela “nonwoven
-                    sponges” con círculos absorbentes, dándole así su toque de innovación a lo que se usaba en su
-                    momento.
-                    Los accionistas son socios de empresas farmacéuticas, por lo que al no desconocer los estándares de
-                    calidad de producción y al saber lo importante que es “crear e innovar”, deciden invertir en
-                    maquinaria y equipo para la fabricación de toallas de textiles “nonwovens” participando así en éste
-                    segmento de la “belleza, spa y salud” que cada día toma más auge en México y en países de América y
-                    teniendo como objetivo el apoyar a profesionales del ramo que necesitan de productos específicos
-                    para realizar sus “tratamientos” con mayor facilidad y eficiencia en beneficio de sus clientes.
-                  </div>
-                  <b class="text-left collapsed manita" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="false" aria-controls="collapseTwo">
-                    Misión:
-                  </b>
-                  <hr>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    Innovar y crear productos con textiles “nonwovens”, para aplicaciones y uso en faciales,
-                    corporales, manos y pies, que contribuyan a facilitar y mejorar el desempeño de profesionales del
-                    ramo en beneficio de sus clientes.
-                  </div>
-                  <b class=" text-left collapsed manita" data-toggle="collapse" data-target="#collapseThree"
-                    aria-expanded="false" aria-controls="collapseThree">
-                    Visión:
-                  </b>
-                  <hr>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                    data-parent="#accordionExample">
-                    Ser la empresa líder en México y la mejor opción en América en la fabricación de productos con
-                    textiles “nonwovens” que se distinga por su posicionamiento de marcas y por la preferencia de las
-                    mismas con los profesionales del ramo.
-                  </div>
-                </div> -->
-
-              </div>
-            </section>
             <!-- ##### NOSOTROS #####-->
             <section id="nosotros">
 
@@ -435,7 +319,7 @@
                         Historia:
                       </h4>
                       <hr class="mb-0 mt-0 color-pearl bg-pearl">
-                      <div id="historia" class="collapse p-3 color-pearl" style="color: #fff5ed"
+                      <div id="historia" class="collapse show p-3 color-pearl" style="color: #fff5ed"
                         data-parent="#accordionStory">
                         Laboratorios Kalán S.A. de C.V. nace en el año de 2011. Su trayectoria se enfoca al ramo
                         cosmético
@@ -494,7 +378,7 @@
                     <div class="bg-orange">
                       <h4 class=" text-left manita text-helper ml-3 mt-0 montserrat-black peach-color"
                         data-toggle="collapse" data-target="#valores" aria-expanded="true" aria-controls="valores">
-                        
+
                         Nuestros valores:
                       </h4>
                       <hr class="mb-0 mt-0 color-pearl bg-pearl">
