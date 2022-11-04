@@ -13745,6 +13745,7 @@ body {
 
 @font-face {
   font-family: Montserrat-SemiBold;
+  font-weight: bold;
   src: url("../fonts/Montserrat/Montserrat-SemiBold.otf") format("opentype");
 }
 
@@ -13756,6 +13757,11 @@ body {
 @font-face {
   font-family: Montserrat-Medium;
   src: url("../fonts/Montserrat/Montserrat-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../fonts/Montserrat/Montserrat-Bold.otf") format("opentype");
 }
 
 .montserrat-black { 
@@ -13773,6 +13779,10 @@ body {
 .montserrat-medium { 
   font-family: Montserrat-Medium !important;
 }
+.montserrat-bold { 
+  font-family: Montserrat-Bold !important;
+}
+
 
 .rounded-button {
   border-radius: 50%
@@ -13813,9 +13823,21 @@ hr {
   background-color: #333; /* Modern Browsers */
 }
 
+.font-14{
+  font-size: 14px !important;
+}
 
 .manita {
   cursor: pointer;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  overflow: hidden;
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 
