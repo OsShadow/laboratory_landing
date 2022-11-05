@@ -58,6 +58,7 @@
   <link href="./assets/css/vendors/slick-carousel/slick.css" rel="stylesheet">
   <link href="./assets/css/vendors/slick-carousel/slick-theme.css" rel="stylesheet">
   <link href="./assets/css/styles.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="./assets/css/vendors/lightgallery/lightgallery-bundle.min.css" />
   <style>
     .carousel-inner>.item>img,
     .carousel-inner>.item>a>img {
@@ -526,15 +527,32 @@
             </div>
 
             <!-- SIGUIENTE PRODUCTO -->
-
+            <!-- <div id="gallery-animated-captions-demo">
+              <a href="assets/images/carousel/02.jpg"
+                data-sub-html="<div class='lightGallery-captions'><h4>title</h4><p>description</p></div>">
+                <img src="assets/images/carousel/01.jpg" />
+              </a>
+              <a href="assets/images/carousel/02.jpg"
+                data-sub-html="<div class='lightGallery-captions'><h4>title</h4><p>description</p></div>">
+                <img src="assets/images/carousel/02.jpg" />
+              </a>
+              <a href="assets/images/carousel/03.jpg"
+                data-sub-html="<div class='lightGallery-captions'><h4>title</h4><p>description</p></div>">
+                <img src="assets/images/carousel/03.jpg" />
+              </a>
+              ...
+            </div> -->
             <!-- <img class="image" style="max-height: 500px; width: auto;" src="assets/images/carousel/01.jpg" alt="img" /> -->
             <div class="row">
-              <div class="col-md-8 col-sm-12 mx-auto" style="margin-top: 25px;">
+              <div class="col-md-8 col-sm-12 mx-auto " style="margin-top: 25px;">
                 <div class="row">
                   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
-                    <div class="w-100 mb-4 container-overflow">
-                      <img src="assets/images/carousel/01.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Boat on Calm Water" />
+                    <div class="w-100 mb-4 container-overflow ">
+                      <a href="assets/images/carousel/01.jpg"
+                        data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                        <img src="assets/images/carousel/01.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                          alt="Imagen uno de galería" />
+                      </a>
                     </div>
                     <div class="w-100 mb-4 container-overflow">
                       <img src="assets/images/carousel/02.jpg" class="w-100 shadow-1-strong rounded zoom"
@@ -1257,6 +1275,9 @@
   <script src="./assets/js/vendors/jquery.navScroll.min.js"></script>
   <script src="./assets/js/vendors/parallax.min.js"></script>
   <script src="./assets/js/vendors/jquery.magnific-popup.min.js"></script>
+  <script src="./assets/js/vendors/lightgallery.umd.js"></script>
+  <script src="./assets/js/vendors/lightgallery.umd.js"></script>
+  <script src="./assets/js/vendors/lightgallery.umd.js"></script>
   <!-- This assets are not avalaible in npm.js or it has been costumized-->
   <script src="./assets/js/vendors/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   <script src="./assets/js/vendors/materialize.js"></script>
