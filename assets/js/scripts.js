@@ -17,7 +17,7 @@ lightGallery(document.getElementById('gallery-animated-captions-demo'), {
   // Delay slide transition to complete captions animations
   // before navigating to different slides (Optional)
   // You can find caption animation demo on the captions demo page
-  slideDelay: 400,
+  // slideDelay: 400,
 });
 
 $('#case_gallery').each(function () {
