@@ -3,7 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Alexstrap Agency - HTML5 Bootstrap Landing Page Template">
+  <meta name="description" content="Tollysorb está hecho a partir de una tela no tejida (nonwoven) con
+  características especiales que la hacen mucho más adecuada para el uso en tratamientos faciales o
+  corporales, en especial los que se realizan en spas y clínicas de
+  belleza.">
   <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"><!-- Favicon-->
   <link rel="shortcut icon" href="./assets/favicons/favicon.ico">
   <!-- <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicons/apple-icon-57x57.png">
@@ -38,7 +41,10 @@
   <meta property="twitter:image:src" content="./assets/images/logo.png">
   <meta property="og:url" content="alexstrap.ux-maestro.com/agency">
   <meta property="og:title" content="Agency Project">
-  <meta property="og:description" content="Alexstrap Agency - HTML5 Bootstrap Landing Page Template">
+  <meta property="og:description" content="Tollysorb está hecho a partir de una tela no tejida (nonwoven) con
+  características especiales que la hacen mucho más adecuada para el uso en tratamientos faciales o
+  corporales, en especial los que se realizan en spas y clínicas de
+  belleza.">
   <meta name="twitter:site" content="alexstrap.ux-maestro.com/agency">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="/images/agency-logo.png">
@@ -88,16 +94,24 @@
               <li class="collection-item" style="animation-duration: 0.75s"><a
                   class="sidenav-close waves-effect menu-list" href="#productos">PRODUCTOS</a></li>
               <li class="collection-item" style="animation-duration: 0.75s"><a
-                  class="sidenav-close waves-effect menu-list" target="_blank" href="https://www.wa.link/w6ln50/">MÁS
+                  class="sidenav-close waves-effect menu-list" href="contact.php">MÁS
                   INFORMACIÓN</a></li>
+              <li class="" style="animation-duration: 1s"><a class="sidenav-close waves-effect menu-list"
+                  href="mailto:kalanlaboratorios@hotmail.com">
+                  <!-- <span style="font-size: 30px; padding-top: 5px !important;" class="ion-ios-email icon green-color"></span> -->
+                  <span style="font-size: 20px;"> kalanlaboratorios@hotmail.com</span>
+                </a></li>
               <!-- <li class="collection-item" style="animation-duration: 1s"><a class="sidenav-close waves-effect menu-list"
                   href="#case-studies">Info</a></li> -->
-              <li class="collection-item" style="animation-duration: 1s"><a class="waves-effect menu-list"
-                  href="contact.html">CONTACTO</a></li>
+              <!-- <li class="collection-item" style="animation-duration: 1s"><a class="waves-effect menu-list"
+                  href="contact.php">CONTACTO</a></li> -->
               <li class="collection-item" style="animation-duration: 1s">
 
                 <div class="row ">
                   <div class="col-12">
+                    <a class="sidenav-close waves-effect menu-list" target="_blank"
+                      href="https://www.wa.link/w6ln50/"><span style="font-size: 30px;"
+                        class="ion-social-whatsapp icon green-color"></span></a>
                     <a class="sidenav-close waves-effect menu-list" target="_blank"
                       href="https://www.facebook.com/LaboratoriosKalanSaDeCv"><span style="font-size: 30px;"
                         class="ion-social-facebook icon green-color"></span></a>
@@ -138,7 +152,7 @@
                           href="https://www.wa.link/w6ln50/"> MÁS INFORMACIÓN</a></li>
                       <!-- <li><a class="btn btn-flat anchor-link waves-effect" href="#case-studies">Info</a></li> -->
                       <li><a class="btn btn-flat anchor-link waves-effect pearl-color font-14"
-                          href="contact.html">CONTACTO</a>
+                          href="contact.php">CONTACTO</a>
                         <a class="btn btn-flat anchor-link waves-effect pearl-color p-0" target="_blank"
                           href="https://www.facebook.com/LaboratoriosKalanSaDeCv">
                           <span style="font-size: 20px;" class="ion-social-facebook icon pearl-color"></span>
@@ -279,15 +293,25 @@
                     <div class="col-md-5 mb-5">
                       <br><br><br>
                       <img class="mw-100 " src="assets/images/kalan/spa-1.png" alt="">
-                    </div>
 
+                      <a class="position-absolute" style="margin: 0; bottom: 40px;right: 50px; " target="_blank"
+                        href="https://www.wa.link/w6ln50/">
+                        <div style="font-size: 50px; width: 80px; height: 80px;" class="rounded-circle bg-green">
+                          <div class="text-center">
+                            <span class="ion-social-whatsapp align-middle pearl-color"></span>
+                          </div>
+                        </div>
+                      </a>
+
+                    </div>
                   </div>
                 </div>
               </div>
-            </section>
-            <!-- ##### END BANNER #####-->
-            <!-- ##### ABOUT #####-->
-            <!-- <section class="space-top is-md" id="about">
+        </div>
+        </section>
+        <!-- ##### END BANNER #####-->
+        <!-- ##### ABOUT #####-->
+        <!-- <section class="space-top is-md" id="about">
               <div class="root">
                 <div class="container fixed-width">
                   <div class="row">
@@ -343,202 +367,202 @@
                 </div>
               </div>
             </section>  -->
-            <!-- ##### END ABOUT #####-->
-            <!-- ##### PARALLAX DOTS #####-->
+        <!-- ##### END ABOUT #####-->
+        <!-- ##### PARALLAX DOTS #####-->
 
 
-            <!-- ##### NOSOTROS #####-->
-            <section id="nosotros" class="bg-pearl">
+        <!-- ##### NOSOTROS #####-->
+        <section id="nosotros" class="bg-pearl">
 
-              <div class="row " data-entrance="fade">
-                <div class=" col-md-8 col-sm-12 mx-auto p-0">
+          <div class="row " data-entrance="fade">
+            <div class=" col-md-8 col-sm-12 mx-auto p-0">
 
-                  <div class="accordion" id="accordionStory">
-                    <div class="bg-orange">
-                      <h4 class="text-left manita text-helper ml-3 mt-0 montserrat-regular pearl-color"
-                        data-toggle="collapse" data-target="#historia" aria-expanded="true" aria-controls="historia">
-                        Historia:
-                      </h4>
-                      <hr class="mb-0 mt-0 color-pearl bg-pearl">
-                      <div id="historia" class="collapse show p-3 color-pearl montserrat-regular" style="color: #fff5ed"
-                        data-parent="#accordionStory">
-                        Laboratorios Kalán S.A. de C.V. nace en el año de 2011. Su trayectoria se enfoca al ramo
-                        cosmético
-                        con la elaboración de toalla para SPA y a la creación de productos que tocan directamente el
-                        tema
-                        de
-                        la belleza y cuidado de la zona facial, distinguiéndose por promover el uso de la tela “nonwoven
-                        sponges” con círculos absorbentes, dándole así su toque de innovación a lo que se usaba en su
-                        momento.
-                        Los accionistas son socios de empresas farmacéuticas, por lo que al no desconocer los estándares
-                        de
-                        calidad de producción y al saber lo importante que es “crear e innovar”, deciden invertir en
-                        maquinaria y equipo para la fabricación de toallas de textiles “nonwovens” participando así en
-                        éste
-                        segmento de la “belleza, spa y salud” que cada día toma más auge en México y en países de
-                        América
-                        y
-                        teniendo como objetivo el apoyar a profesionales del ramo que necesitan de productos específicos
-                        para realizar sus “tratamientos” con mayor facilidad y eficiencia en beneficio de sus clientes.
-                      </div>
-                    </div>
+              <div class="accordion" id="accordionStory">
+                <div class="bg-orange">
+                  <h4 class="text-left manita text-helper ml-3 mt-0 montserrat-regular pearl-color"
+                    data-toggle="collapse" data-target="#historia" aria-expanded="true" aria-controls="historia">
+                    Historia:
+                  </h4>
+                  <hr class="mb-0 mt-0 color-pearl bg-pearl">
+                  <div id="historia" class="collapse show p-3 color-pearl montserrat-regular" style="color: #fff5ed"
+                    data-parent="#accordionStory">
+                    Laboratorios Kalán S.A. de C.V. nace en el año de 2011. Su trayectoria se enfoca al ramo
+                    cosmético
+                    con la elaboración de toalla para SPA y a la creación de productos que tocan directamente el
+                    tema
+                    de
+                    la belleza y cuidado de la zona facial, distinguiéndose por promover el uso de la tela “nonwoven
+                    sponges” con círculos absorbentes, dándole así su toque de innovación a lo que se usaba en su
+                    momento.
+                    Los accionistas son socios de empresas farmacéuticas, por lo que al no desconocer los estándares
+                    de
+                    calidad de producción y al saber lo importante que es “crear e innovar”, deciden invertir en
+                    maquinaria y equipo para la fabricación de toallas de textiles “nonwovens” participando así en
+                    éste
+                    segmento de la “belleza, spa y salud” que cada día toma más auge en México y en países de
+                    América
+                    y
+                    teniendo como objetivo el apoyar a profesionales del ramo que necesitan de productos específicos
+                    para realizar sus “tratamientos” con mayor facilidad y eficiencia en beneficio de sus clientes.
                   </div>
-
-                  <div class="accordion" id="accordionMission">
-                    <div class="bg-green">
-                      <h4 class="text-left manita text-helper ml-3 mt-0 montserrat-regular pearl-color"
-                        data-toggle="collapse" data-target="#mision" aria-expanded="true" aria-controls="mision">Misión:
-                      </h4>
-                      <hr class="mb-0 mt-0 color-orange bg-orange">
-                      <div id="mision" class="collapse p-3 color-pearl montserrat-regular" style="color: #fff5ed"
-                        data-parent="#accordionMission">Innovar y crear productos con
-                        textiles “nonwovens”, para aplicaciones y uso en faciales,
-                        corporales, manos y pies, que contribuyan a facilitar y mejorar el desempeño de profesionales
-                        del
-                        ramo en beneficio de sus clientes.
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion" id="accordionVision">
-                    <div class="bg-pearl">
-                      <h4 class="text-left manita text-helper ml-3 mt-0 montserrat-regular green-color"
-                        data-toggle="collapse" data-target="#vision" aria-expanded="true" aria-controls="mision">Visión:
-                      </h4>
-                      <hr class="mb-0 mt-0 color-green bg-green montserrat-regular">
-                      <div id="vision" class="collapse p-3 color-green" style="color: #AFB8AA"
-                        data-parent="#accordionVision">Ser la empresa líder en
-                        México y la mejor opción en América en la fabricación de productos con
-                        textiles “nonwovens” que se distinga por su posicionamiento de marcas y por la preferencia de
-                        las
-                        mismas con los profesionales del ramo.</div>
-                    </div>
-                  </div>
-
-                  <div class="accordion" id="AccordionValores">
-                    <div class="bg-orange">
-                      <h4 class=" text-left manita text-helper ml-3 mt-0 montserrat-regular pearl-color"
-                        data-toggle="collapse" data-target="#valores" aria-expanded="true" aria-controls="valores">
-
-                        Nuestros valores:
-                      </h4>
-                      <hr class="mb-0 mt-0 color-pearl bg-pearl">
-                      <div id="valores" class="collapse p-3 color-pearl montserrat-regular" style="color: #fff5ed"
-                        data-parent="#AccordionValores">
-                        <div class="row" style="font-weight: bold;">
-                          <div class="col text-center">Innovación</div>
-                          <div class="col text-center">Calidad</div>
-                          <div class="col text-center">Honestidad</div>
-                          <div class="col text-center">Servicio</div>
-                          <div class="col text-center">Responsabilidad</div>
-                          <div class="col text-center">Liderazgo</div>
-                          <div class="col text-center">Respeto</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
                 </div>
               </div>
-        </div>
 
-
-
-        </section>
-        <section class="  montserrat-regular bg-pearl" id="productos">
-          <div class="row">
-
-
-            <div class="col-md-8 mx-auto p-3 mt-3 rounded-25"
-              style="background: linear-gradient(to right, #AFB8AA, #e1ad8c); ">
-              <div class="row">
-                <div class="col-12 text-center">
-                  <img style="height: 80px;" src="assets/images/titulos/tollysorb.png" alt="">
-                </div>
-                <div class="col-md-6 col-sm-12 text-left mt-5 pt-5 bg-pearl rounded-25">
-
-                  <div class="montserrat-medium h4  "> <span class=" btn-lg rounded-pill p3 bg-green pearl-color">
-                      DESCRIPCIÓN</span></div>
-                  <p class="montserrat-regular">Tollysorb está hecho a partir de una tela no tejida (nonwoven) con
-                    características especiales que la hacen mucho más adecuada para el uso en tratamientos faciales o
-                    corporales, en especial los que se realizan en spas y clínicas de
-                    belleza.</p>
-                  <div class="montserrat-medium h4  "> <span class=" btn-lg rounded-pill p3 bg-orange pearl-color">
-                      DIMENSIONES</span></div>
-
-                  <ul>
-                    <li class="montserrat-regular">Tenemos dos presentaciones de 200 piezas cada una.</li>
-                    <li class="montserrat-regular">La toalla mediana es doblada en Z a 12 x 12 cm (4.73’’ x 4.73’’)</li>
-                    <li class="montserrat-regular">La toalla grande es doblada en Z a 10 x 20 cm (3.94’’ x 7.88’’)</li>
-                  </ul>
-
-
-                  </p>
-                  <div class="montserrat-medium h4  "> <span class=" btn-lg rounded-pill p3 bg-green pearl-color">
-                      CARACTERÍSTICAS</span></div>
-                  <ul>
-                    <li class="montserrat-regular">Diseño Innovador.</li>
-                    <li class="montserrat-regular">Con círculos absorbentes que dan alta capacidad de retención de
-                      cremas
-                      y
-                      lociones utilizadas en
-                      tratamientos de masajes y limpiezas corporales.</li>
-                    <li class="montserrat-regular">Medida ideal, doblada en Z.</li>
-                    <li class="montserrat-regular">Son muy prácticas para ser impregnadas y lograr así la mayor limpieza
-                      sin dejar
-                      residuos o pelusas.</li>
-                  </ul>
-
-                </div>
-                <div class="col-md-6 col-sm-12 mx-auto" >
-                  <div class="img-fluid"
-                    style="background-image: url('assets/images/bg-products/elements-06.png');  background-size: 100%;  background-position: bottom;">
-                    <img class="mw-100" data-entrance="from-right" style="z-index: 1000 !important;" src="assets/images/productos/image-1.png"
-                      alt="">
+              <div class="accordion" id="accordionMission">
+                <div class="bg-green">
+                  <h4 class="text-left manita text-helper ml-3 mt-0 montserrat-regular pearl-color"
+                    data-toggle="collapse" data-target="#mision" aria-expanded="true" aria-controls="mision">Misión:
+                  </h4>
+                  <hr class="mb-0 mt-0 color-orange bg-orange">
+                  <div id="mision" class="collapse p-3 color-pearl montserrat-regular" style="color: #fff5ed"
+                    data-parent="#accordionMission">Innovar y crear productos con
+                    textiles “nonwovens”, para aplicaciones y uso en faciales,
+                    corporales, manos y pies, que contribuyan a facilitar y mejorar el desempeño de profesionales
+                    del
+                    ramo en beneficio de sus clientes.
                   </div>
+                </div>
+              </div>
 
+              <div class="accordion" id="accordionVision">
+                <div class="bg-pearl">
+                  <h4 class="text-left manita text-helper ml-3 mt-0 montserrat-regular green-color"
+                    data-toggle="collapse" data-target="#vision" aria-expanded="true" aria-controls="mision">Visión:
+                  </h4>
+                  <hr class="mb-0 mt-0 color-green bg-green montserrat-regular">
+                  <div id="vision" class="collapse p-3 color-green" style="color: #AFB8AA"
+                    data-parent="#accordionVision">Ser la empresa líder en
+                    México y la mejor opción en América en la fabricación de productos con
+                    textiles “nonwovens” que se distinga por su posicionamiento de marcas y por la preferencia de
+                    las
+                    mismas con los profesionales del ramo.</div>
+                </div>
+              </div>
+
+              <div class="accordion" id="AccordionValores">
+                <div class="bg-orange">
+                  <h4 class=" text-left manita text-helper ml-3 mt-0 montserrat-regular pearl-color"
+                    data-toggle="collapse" data-target="#valores" aria-expanded="true" aria-controls="valores">
+
+                    Nuestros valores:
+                  </h4>
+                  <hr class="mb-0 mt-0 color-pearl bg-pearl">
+                  <div id="valores" class="collapse p-3 color-pearl montserrat-regular" style="color: #fff5ed"
+                    data-parent="#AccordionValores">
+                    <div class="row" style="font-weight: bold;">
+                      <div class="col text-center">Innovación</div>
+                      <div class="col text-center">Calidad</div>
+                      <div class="col text-center">Honestidad</div>
+                      <div class="col text-center">Servicio</div>
+                      <div class="col text-center">Responsabilidad</div>
+                      <div class="col text-center">Liderazgo</div>
+                      <div class="col text-center">Respeto</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+
+
+
+      </section>
+      <section class="  montserrat-regular bg-pearl" id="productos">
+        <div class="row">
+
+
+          <div class="col-md-8 mx-auto p-3 mt-3 rounded-25"
+            style="background: linear-gradient(to right, #AFB8AA, #e1ad8c); ">
+            <div class="row">
+              <div class="col-12 text-center">
+                <img style="height: 80px;" src="assets/images/titulos/tollysorb.png" alt="">
+              </div>
+              <div class="col-md-6 col-sm-12 text-left mt-5 pt-5 bg-pearl rounded-25">
+
+                <div class="montserrat-medium h4  "> <span class=" btn-lg rounded-pill p3 bg-green pearl-color">
+                    DESCRIPCIÓN</span></div>
+                <p class="montserrat-regular">Tollysorb está hecho a partir de una tela no tejida (nonwoven) con
+                  características especiales que la hacen mucho más adecuada para el uso en tratamientos faciales o
+                  corporales, en especial los que se realizan en spas y clínicas de
+                  belleza.</p>
+                <div class="montserrat-medium h4  "> <span class=" btn-lg rounded-pill p3 bg-orange pearl-color">
+                    DIMENSIONES</span></div>
+
+                <ul>
+                  <li class="montserrat-regular">Tenemos dos presentaciones de 200 piezas cada una.</li>
+                  <li class="montserrat-regular">La toalla mediana es doblada en Z a 12 x 12 cm (4.73’’ x 4.73’’)</li>
+                  <li class="montserrat-regular">La toalla grande es doblada en Z a 10 x 20 cm (3.94’’ x 7.88’’)</li>
+                </ul>
+
+
+                </p>
+                <div class="montserrat-medium h4  "> <span class=" btn-lg rounded-pill p3 bg-green pearl-color">
+                    CARACTERÍSTICAS</span></div>
+                <ul>
+                  <li class="montserrat-regular">Diseño Innovador.</li>
+                  <li class="montserrat-regular">Con círculos absorbentes que dan alta capacidad de retención de
+                    cremas
+                    y
+                    lociones utilizadas en
+                    tratamientos de masajes y limpiezas corporales.</li>
+                  <li class="montserrat-regular">Medida ideal, doblada en Z.</li>
+                  <li class="montserrat-regular">Son muy prácticas para ser impregnadas y lograr así la mayor limpieza
+                    sin dejar
+                    residuos o pelusas.</li>
+                </ul>
+
+              </div>
+              <div class="col-md-6 col-sm-12 mx-auto">
+                <div class="img-fluid"
+                  style="background-image: url('assets/images/bg-products/elements-06.png');  background-size: 100%;  background-position: bottom;">
+                  <img class="mw-100" data-entrance="from-right" style="z-index: 1000 !important;"
+                    src="assets/images/productos/image-1.png" alt="">
                 </div>
 
               </div>
-              <div class="row">
-                <div class="col-12 text-center">
-                  <img style="height: 80px;" src="assets/images/titulos/ojos.png" alt="">
-                </div>
-                <div class="col-md-6 col-sm-12 text-left  mt-5 pt-5 bg-pearl rounded-25">
 
-                  <div class="montserrat-medium h4 "> <span class=" btn-lg rounded-pill p3 bg-green pearl-color">
-                      DESCRIPCIÓN</span></div>
-                  <p class="montserrat-regular">Tollysorb está hecho a partir de una tela no tejida (nonwoven) con
-                    características especiales que la hacen mucho más adecuada para el uso en los ojos, en especial en
-                    los
-                    tratamientos que se realizan en spas y clínicas de belleza.</p>
-                  <div class="montserrat-medium h4  "> <span class=" btn-lg rounded-pill p3 bg-orange pearl-color">
-                      DIMENSIONES</span></div>
-                  <ul>
-                    <li class="montserrat-regular">Doblada en Z a 12 x 6 cm. (4.73" x 2.36")</li>
-                    <li class="montserrat-regular">80 piezas.</li>
-                  </ul>
-                  <div class="montserrat-medium h4"> <span class=" btn-lg rounded-pill p3 bg-green pearl-color">
-                      CARACTERÍSTICAS</span></div>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <img style="height: 80px;" src="assets/images/titulos/ojos.png" alt="">
+              </div>
+              <div class="col-md-6 col-sm-12 text-left  mt-5 pt-5 bg-pearl rounded-25">
 
-                  <ul>
-                    <li class="montserrat-regular">Innovador diseño.</li>
-                    <li class="montserrat-regular">Con círculos absorbentes.</li>
-                    <li class="montserrat-regular">Medida ideal doblada en Z.</li>
-                  </ul>
+                <div class="montserrat-medium h4 "> <span class=" btn-lg rounded-pill p3 bg-green pearl-color">
+                    DESCRIPCIÓN</span></div>
+                <p class="montserrat-regular">Tollysorb está hecho a partir de una tela no tejida (nonwoven) con
+                  características especiales que la hacen mucho más adecuada para el uso en los ojos, en especial en
+                  los
+                  tratamientos que se realizan en spas y clínicas de belleza.</p>
+                <div class="montserrat-medium h4  "> <span class=" btn-lg rounded-pill p3 bg-orange pearl-color">
+                    DIMENSIONES</span></div>
+                <ul>
+                  <li class="montserrat-regular">Doblada en Z a 12 x 6 cm. (4.73" x 2.36")</li>
+                  <li class="montserrat-regular">80 piezas.</li>
+                </ul>
+                <div class="montserrat-medium h4"> <span class=" btn-lg rounded-pill p3 bg-green pearl-color">
+                    CARACTERÍSTICAS</span></div>
 
-                </div>
-                <div class="col-md-6 col-sm-12 mx-auto" >
-                  <div class="img-fluid"
-                    style="background-image: url('assets/images/bg-products/elements-06.png');  background-size: 100%;  background-position: bottom;">
-                    <img class="mw-100" data-entrance="from-right" src="assets/images/productos/image-2.png" alt="">
-                  </div>
+                <ul>
+                  <li class="montserrat-regular">Innovador diseño.</li>
+                  <li class="montserrat-regular">Con círculos absorbentes.</li>
+                  <li class="montserrat-regular">Medida ideal doblada en Z.</li>
+                </ul>
+
+              </div>
+              <div class="col-md-6 col-sm-12 mx-auto">
+                <div class="img-fluid"
+                  style="background-image: url('assets/images/bg-products/elements-06.png');  background-size: 100%;  background-position: bottom;">
+                  <img class="mw-100" data-entrance="from-right" src="assets/images/productos/image-2.png" alt="">
                 </div>
               </div>
             </div>
+          </div>
 
-            <!-- SIGUIENTE PRODUCTO -->
-            <!-- <div id="gallery-animated-captions-demo">
+          <!-- SIGUIENTE PRODUCTO -->
+          <!-- <div id="gallery-animated-captions-demo">
               <a href="assets/images/carousel/02.jpg"
                 data-sub-html="<div class='lightGallery-captions'><h4>title</h4><p>description</p></div>">
                 <img src="assets/images/carousel/01.jpg" />
@@ -553,130 +577,130 @@
               </a>
               ...
             </div> -->
-            <!-- <img class="image" style="max-height: 500px; width: auto;" src="assets/images/carousel/01.jpg" alt="img" /> -->
+          <!-- <img class="image" style="max-height: 500px; width: auto;" src="assets/images/carousel/01.jpg" alt="img" /> -->
 
 
 
 
 
-            <div class="row">
-              <div class="col-md-8 col-sm-12 mx-auto " style="margin-top: 25px;">
-                <div class="row" id="gallery-animated-captions-demo">
+          <div class="row">
+            <div class="col-md-8 col-sm-12 mx-auto " style="margin-top: 25px;">
+              <div class="row" id="gallery-animated-captions-demo">
 
 
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-03.jpg" data-entrance="fade"
-                    data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
-                    <div class="mb-lg-0 w-100 mb-4 container-overflow ">
-                      <img src="assets/images/galery/image-03.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Imagen 1 de galería" />
-                    </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-04.jpg" data-entrance="fade"
+                <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-03.jpg" data-entrance="fade"
+                  data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                  <div class="mb-lg-0 w-100 mb-4 container-overflow ">
+                    <img src="assets/images/galery/image-03.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                      alt="Imagen 1 de galería" />
+                  </div>
+                </a>
+                <!-- <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-04.jpg" data-entrance="fade"
                     data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
                     <div class=" mb-lg-0 w-100 mb-4 container-overflow ">
                       <img src="assets/images/galery/image-04.jpg" class="w-100 shadow-1-strong rounded  zoom"
                         alt="Imagen 2 de galería" />
                     </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-05.jpg" data-entrance="fade"
-                    data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
-                    <div class="mb-lg-0 w-100 mb-4 container-overflow ">
-                      <img src="assets/images/galery/image-05.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Imagen 3 de galería" />
-                    </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-06.jpg" data-entrance="fade"
-                    data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
-                    <div class="mb-lg-0 w-100 mb-4 container-overflow ">
-                      <img src="assets/images/galery/image-06.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Imagen 4 de galería" />
-                    </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-07.jpg" data-entrance="fade"
-                    data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
-                    <div class="mb-lg-0 w-100 mb-4 container-overflow ">
-                      <img src="assets/images/galery/image-07.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Imagen 5 de galería" />
-                    </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-08.jpg" data-entrance="fade"
-                    data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
-                    <div class="mb-lg-0 w-100 mb-4 container-overflow ">
-                      <img src="assets/images/galery/image-08.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Imagen 6 de galería" />
-                    </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-09.jpg" data-entrance="fade"
-                    data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
-                    <div class="mb-lg-0 w-100 mb-4 container-overflow ">
-                      <img src="assets/images/galery/image-09.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Imagen 7 de galería" />
-                    </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-10.jpg" data-entrance="fade"
-                    data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
-                    <div class="mb-lg-0 w-100 mb-4 container-overflow ">
-                      <img src="assets/images/galery/image-10.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Imagen 8 de galería" />
-                    </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-11.jpg" data-entrance="fade"
-                    data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
-                    <div class="mb-lg-0 w-100 mb-4 container-overflow ">
-                      <img src="assets/images/galery/image-11.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Imagen 9 de galería" />
-                    </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-12.jpg" data-entrance="fade"
+                  </a> -->
+                <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-05.jpg" data-entrance="fade"
+                  data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                  <div class="mb-lg-0 w-100 mb-4 container-overflow ">
+                    <img src="assets/images/galery/image-05.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                      alt="Imagen 3 de galería" />
+                  </div>
+                </a>
+                <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-06.jpg" data-entrance="fade"
+                  data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                  <div class="mb-lg-0 w-100 mb-4 container-overflow ">
+                    <img src="assets/images/galery/image-06.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                      alt="Imagen 4 de galería" />
+                  </div>
+                </a>
+                <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-07.jpg" data-entrance="fade"
+                  data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                  <div class="mb-lg-0 w-100 mb-4 container-overflow ">
+                    <img src="assets/images/galery/image-07.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                      alt="Imagen 5 de galería" />
+                  </div>
+                </a>
+                <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-08.jpg" data-entrance="fade"
+                  data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                  <div class="mb-lg-0 w-100 mb-4 container-overflow ">
+                    <img src="assets/images/galery/image-08.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                      alt="Imagen 6 de galería" />
+                  </div>
+                </a>
+                <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-09.jpg" data-entrance="fade"
+                  data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                  <div class="mb-lg-0 w-100 mb-4 container-overflow ">
+                    <img src="assets/images/galery/image-09.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                      alt="Imagen 7 de galería" />
+                  </div>
+                </a>
+                <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-10.jpg" data-entrance="fade"
+                  data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                  <div class="mb-lg-0 w-100 mb-4 container-overflow ">
+                    <img src="assets/images/galery/image-10.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                      alt="Imagen 8 de galería" />
+                  </div>
+                </a>
+                <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-11.jpg" data-entrance="fade"
+                  data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                  <div class="mb-lg-0 w-100 mb-4 container-overflow ">
+                    <img src="assets/images/galery/image-11.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                      alt="Imagen 9 de galería" />
+                  </div>
+                </a>
+                <!-- <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-12.jpg" data-entrance="fade"
                     data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
                     <div class="mb-lg-0 w-100 mb-4 container-overflow ">
                       <img src="assets/images/galery/image-12.jpg" class="w-100 shadow-1-strong rounded  zoom"
                         alt="Imagen 10 de galería" />
                     </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-13.jpg" data-entrance="fade"
-                    data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
-                    <div class="mb-lg-0 w-100 mb-4 container-overflow ">
-                      <img src="assets/images/galery/image-13.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Imagen 11 de galería" />
-                    </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-14.jpg" data-entrance="fade"
+                  </a> -->
+                <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-13.jpg" data-entrance="fade"
+                  data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                  <div class="mb-lg-0 w-100 mb-4 container-overflow ">
+                    <img src="assets/images/galery/image-13.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                      alt="Imagen 11 de galería" />
+                  </div>
+                </a>
+                <!-- <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-14.jpg" data-entrance="fade"
                     data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
                     <div class="mb-lg-0 w-100 mb-4 container-overflow ">
                       <img src="assets/images/galery/image-14.jpg" class="w-100 shadow-1-strong rounded  zoom"
                         alt="Imagen 12 de galería" />
                     </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-01.jpg" data-entrance="fade"
-                    data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
-                    <div class=" mb-lg-0 w-100 mb-4 container-overflow ">
-                      <img src="assets/images/galery/image-01.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Imagen 13 de galería" />
-                    </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-02.jpg" data-entrance="fade"
-                    data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
-                    <div class=" mb-lg-0 w-100 mb-4 container-overflow ">
-                      <img src="assets/images/galery/image-02.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Imagen 14 de galería" />
-                    </div>
-                  </a>
-                  <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-15.jpg" data-entrance="fade"
-                    data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
-                    <div class=" mb-lg-0 w-100 mb-4 container-overflow ">
-                      <img src="assets/images/galery/image-15.jpg" class="w-100 shadow-1-strong rounded  zoom"
-                        alt="Imagen 14 de galería" />
-                    </div>
-                  </a>
-                </div>
+                  </a> -->
+                <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-01.jpg" data-entrance="fade"
+                  data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                  <div class=" mb-lg-0 w-100 mb-4 container-overflow ">
+                    <img src="assets/images/galery/image-01.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                      alt="Imagen 13 de galería" />
+                  </div>
+                </a>
+                <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-02.jpg" data-entrance="fade"
+                  data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                  <div class=" mb-lg-0 w-100 mb-4 container-overflow ">
+                    <img src="assets/images/galery/image-02.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                      alt="Imagen 14 de galería" />
+                  </div>
+                </a>
+                <a class="col-lg-4 col-md-12 mb-4" href="assets/images/galery/image-15.jpg" data-entrance="fade"
+                  data-sub-html="<div class='lightGallery-captions'><h4>Imagen 1</h4></div>">
+                  <div class=" mb-lg-0 w-100 mb-4 container-overflow ">
+                    <img src="assets/images/galery/image-15.jpg" class="w-100 shadow-1-strong rounded  zoom"
+                      alt="Imagen 14 de galería" />
+                  </div>
+                </a>
               </div>
             </div>
+          </div>
 
 
-        </section>
-        <!-- ##### SERVICES #####-->
-        <!-- <section class="space-top-short" id="services">
+      </section>
+      <!-- ##### SERVICES #####-->
+      <!-- <section class="space-top-short" id="services">
           <div class="root">
             <div class="carousel-handle">
               <div class="carousel-wrap">
@@ -724,9 +748,9 @@
           </div>
 
         </section> -->
-        <!-- ##### END SERVICES #####-->
-        <!-- ##### EXPERTISE #####-->
-        <!-- <section class="space-top is-md" id="our-expertise"><svg class="background base" fill="#cccccc" width="531px" height="531px" viewBox="0 0 531 531">
+      <!-- ##### END SERVICES #####-->
+      <!-- ##### EXPERTISE #####-->
+      <!-- <section class="space-top is-md" id="our-expertise"><svg class="background base" fill="#cccccc" width="531px" height="531px" viewBox="0 0 531 531">
                 <g stroke="none" stroke-width="1" fill-rule="evenodd">
                   <g transform="translate(-74.000000, -74.000000)">
                     <rect transform="translate(339.184484, 339.184484) rotate(-45.000000) translate(-339.184484, -339.184484) " x="142.184484" y="142.184484" width="394" height="394" rx="33"></rect>
@@ -846,9 +870,9 @@
                 </div>
               </div>
             </section> -->
-        <!-- ##### END EXPERTISE #####-->
-        <!-- ##### TESTIMONIAL #####-->
-        <!-- <section class="space-top is-xs" id="testimonials">
+      <!-- ##### END EXPERTISE #####-->
+      <!-- ##### TESTIMONIAL #####-->
+      <!-- <section class="space-top is-xs" id="testimonials">
               <div class="root">
                 <div class="parallax-wrap">
                   <div class="testi inner-parallax">
@@ -1036,8 +1060,8 @@
                 </div>
               </div>
             </section> -->
-        <!-- ##### CASE STUDIES #####-->
-        <!-- <section id="case-studies">
+      <!-- ##### CASE STUDIES #####-->
+      <!-- <section id="case-studies">
               <div class="root">
                 <div class="container fixed-width-md-up">
                   <div class="row spacing6">
@@ -1140,32 +1164,32 @@
                 </div>
               </div>
             </section> -->
-        <!-- ##### END CASE STUDIES #####-->
-        <!-- ##### CALL ACTION #####-->
-        <section class=" bg-pearl" id="call-to-action" style="padding-top: 7em; padding-bottom: 7em;">
-          <div class="container fixed-width-md-up montserrat-regular ">
-            <div class="root">
-              <div class="card paper">
-                <div class="row align-items-center mb-0">
-                  <div class="col-md-8 pa-0">
-                    <h4 class="use-text-title2 pb-2 montserrat-regular">¿Listo para empezar?</h4>
-                    <p class="use-text-subtitle2">Ponte en contacto con nosotros</p>
-                  </div>
-                  <div class="col-md-4 pa-0">
-                    <div class="d-flex align-items-center justify-content-end">
-                      <a class="waves-effect btn-outlined secondary button" href="/contact.html">Contactanos <i
-                          class="material-icons">send</i></a>
-                    </div>
+      <!-- ##### END CASE STUDIES #####-->
+      <!-- ##### CALL ACTION #####-->
+      <section class=" bg-pearl" id="call-to-action" style="padding-top: 7em; padding-bottom: 7em;">
+        <div class="container fixed-width-md-up montserrat-regular ">
+          <div class="root">
+            <div class="card paper">
+              <div class="row align-items-center mb-0">
+                <div class="col-md-8 pa-0">
+                  <h4 class="use-text-title2 pb-2 montserrat-regular">¿Listo para empezar?</h4>
+                  <p class="use-text-subtitle2">Ponte en contacto con nosotros</p>
+                </div>
+                <div class="col-md-4 pa-0">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <a class="waves-effect btn-outlined secondary button" href="/contact.php">Contactanos <i
+                        class="material-icons">send</i></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <!-- ##### END CALL ACTION #####-->
+        </div>
+      </section>
+      <!-- ##### END CALL ACTION #####-->
 
-        <!-- ##### MAP ADDRESS #####-->
-        <!-- <section class="space-top-short" id="map-address">
+      <!-- ##### MAP ADDRESS #####-->
+      <!-- <section class="space-top-short" id="map-address">
               <div class="root">
                 <div class="container fixed-width">
                   <div class="row spacing6">
@@ -1208,33 +1232,33 @@
                 </div>
               </div>
             </section> -->
-        <!-- ##### END MAP ADDRESS #####-->
-        </main>
-      </div><!-- ##### PAGE NAV #####-->
-      <div class="hidden-md-down">
-        <div class="page-nav" id="page_nav">
-          <nav class="section-nav">
-            <div class="scrollnav">
-              <ul>
-                <li style="top: 120px"><a class="tooltipped" href="#inicio" data-position="left"
-                    data-tooltip="Inicio"></a></li>
-                <li style="top: 90px"><a class="tooltipped" href="#nosotros" data-position="left"
-                    data-tooltip="Nosotros"></a></li>
-                <li style="top: 60px"><a class="tooltipped" href="#productos" data-position="left"
-                    data-tooltip="Productos"></a></li>
-                <!-- <li style="top: 30px"><a class="tooltipped" href="#case-studies" data-position="left"
+      <!-- ##### END MAP ADDRESS #####-->
+      </main>
+    </div><!-- ##### PAGE NAV #####-->
+    <div class="hidden-md-down">
+      <div class="page-nav" id="page_nav">
+        <nav class="section-nav">
+          <div class="scrollnav">
+            <ul>
+              <li style="top: 120px"><a class="tooltipped" href="#inicio" data-position="left"
+                  data-tooltip="Inicio"></a></li>
+              <li style="top: 90px"><a class="tooltipped" href="#nosotros" data-position="left"
+                  data-tooltip="Nosotros"></a></li>
+              <li style="top: 60px"><a class="tooltipped" href="#productos" data-position="left"
+                  data-tooltip="Productos"></a></li>
+              <!-- <li style="top: 30px"><a class="tooltipped" href="#case-studies" data-position="left"
                       data-tooltip="case studies"></a></li> -->
-              </ul>
-            </div>
-          </nav>
-          <div class="scrollnav"><a class="btn-floating btn-large primary tooltipped waves-effect waves-light"
-              href="#home" data-position="left" data-tooltip="Al inicio">
-              <div class="icon material-icons">arrow_upward</div>
-            </a></div>
-        </div>
-      </div><!-- ##### END PAGE NAV #####-->
-      <!-- ##### NOTIFIACTION #####-->
-      <!-- <div class="hidden-md-down">
+            </ul>
+          </div>
+        </nav>
+        <div class="scrollnav"><a class="btn-floating btn-large primary tooltipped waves-effect waves-light"
+            href="#home" data-position="left" data-tooltip="Al inicio">
+            <div class="icon material-icons">arrow_upward</div>
+          </a></div>
+      </div>
+    </div><!-- ##### END PAGE NAV #####-->
+    <!-- ##### NOTIFIACTION #####-->
+    <!-- <div class="hidden-md-down">
         <div class="alert full alert-dismissible fade show notification" role="alert">
           <div class="wrapper">
             <div class="content">
@@ -1246,21 +1270,21 @@
           </div>
         </div>
       </div> -->
-      <!-- ##### END NOTIFIACTION #####-->
-      <!-- ##### FOOTER #####-->
-      <footer class="bg-green">
-        <div class="row">
-          <div class="col-12 ">
-            <div class="text-center mt-1 mb-1">
-              <img src="./assets/images/logos/logo_kalan_peach.svg" alt="logo"
-                style="max-width: 250px !important; height: 50px !important; width: 200px !important;" />
-              <p class="body-2  montserrat-regular pearl-color">&copy; TODOS LOS DERECHOS RESERVADOS</p>
-            </div>
+    <!-- ##### END NOTIFIACTION #####-->
+    <!-- ##### FOOTER #####-->
+    <footer class="bg-green">
+      <div class="row">
+        <div class="col-12 ">
+          <div class="text-center mt-1 mb-1">
+            <img src="./assets/images/logos/logo_kalan_peach.svg" alt="logo"
+              style="max-width: 250px !important; height: 50px !important; width: 200px !important;" />
+            <p class="body-2  montserrat-regular pearl-color">&copy; TODOS LOS DERECHOS RESERVADOS</p>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
 
-      <!-- <footer class="container footer">
+    <!-- <footer class="container footer">
           <div class="row">
             <div class="col-md-3 py-4 px-0">
               <div class="logo">
@@ -1343,8 +1367,8 @@
           </div>
           <p class="body-2 text-center show-sm-down">&copy; Kalan Laboratorios - All Rights Reserved 2020</p>
         </footer> -->
-      <!-- ##### END FOOTER #####-->
-    </div>
+    <!-- ##### END FOOTER #####-->
+  </div>
   </div>
   </div><!-- Scripts-->
   <!-- Put the 3rd/plugins javascript here-->
