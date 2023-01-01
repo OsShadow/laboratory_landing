@@ -77,6 +77,9 @@
               <span><i class="ion-ios-home-outline"></i><i class="ion-ios-arrow-thin-left"></i></span>
             </a>
           </div>
+
+
+
           <div class="container max-md">
             <h3 class="use-text-title pb-3 text-center green-color">° CONTACTANOS °</h3>
             <div class="form">
@@ -100,18 +103,13 @@
                       <label for="email">Teléfono*</label>
                     </div>
                   </div>
-                  <!-- <div class="col-sm-12 ">
-                    <div class="input-field primary">
-                      <textarea class="materialize-textarea" id="message" rows="6"></textarea>
-                      <label for="message">Escribenos un mensaje</label>
-                    </div>
-                  </div> -->
                 </div>
                 <div class="btn-area">
                   <button class="btn-large waves-effect primary mx-auto montserrat-black"
                     style="background: linear-gradient(to right, #AFB8AA, #e1ad8c); color:#fafafa !important;"
-                    type="submit">ENVIAR
-                    <!-- <i class="material-icons right">send</i> -->
+                    type="submit">
+                    <div id="send">ENVIAR</div>
+                    <div id="sending" style="display:none">ENVIANDO...</div>
                   </button>
                 </div>
               </form>
@@ -140,7 +138,10 @@
   <script src="./assets/js/vendors/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   <script src="./assets/js/vendors/materialize.js"></script>
   <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+  <script src="./assets/js/vendors/tata-master/tata.js"></script>
   <script src="./assets/js/scripts.js"></script>
+  <script src="./assets/js/myscript.js"></script>
+
 </body>
 
 </html>
