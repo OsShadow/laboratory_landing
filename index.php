@@ -31,24 +31,24 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <meta property="author" content="luxi">
-  <meta property="og:site_name" content="alexstrap.ux-maestro.com">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="kalanlaboratorios.com">
+  <meta property="og:locale" content="es_MX">
   <meta property="og:type" content="website"><!-- Twitter-->
-  <meta property="twitter:site" content="luxi.ux-maestro.com">
-  <meta property="twitter:domain" content="luxi.ux-maestro.com">
-  <meta property="twitter:creator" content="luxi">
+  <meta property="twitter:site" content="kalanlaboratorios.com">
+  <meta property="twitter:domain" content="kalanlaboratorios.com">
+  <meta property="twitter:creator" content="kalanlaboratorios">
   <meta property="twitter:card" content="summary">
-  <meta property="twitter:image:src" content="./assets/images/logo.png">
-  <meta property="og:url" content="alexstrap.ux-maestro.com/agency">
-  <meta property="og:title" content="Agency Project">
+  <meta property="twitter:image:src" content="./assets/images/galery/image-03.png">
+  <meta property="og:url" content="kalanlaboratorios.com">
+  <meta property="og:title" content="Kalan laboratorios">
   <meta property="og:description" content="Tollysorb está hecho a partir de una tela no tejida (nonwoven) con
   características especiales que la hacen mucho más adecuada para el uso en tratamientos faciales o
   corporales, en especial los que se realizan en spas y clínicas de
   belleza.">
-  <meta name="twitter:site" content="alexstrap.ux-maestro.com/agency">
+  <meta name="twitter:site" content="kalanlaboratorios.com">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="/images/agency-logo.png">
-  <meta property="og:image" content="/images/agency-logo.png">
+  <meta name="twitter:image" content="./assets/images/galery/image-03.png">
+  <meta property="og:image" content="./assets/images/galery/image-03.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <title>Productos Kalán </title><!-- Styles-->
